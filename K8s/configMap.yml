@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-cm
+data:
+  ENVIRONMENT: "final-task"
+  HOST: "localhost"
+  PORT: "8000"
+  REDIS_HOST: "svc"
+  REDIS_PORT: "6379"
+  REDIS_DB: "0"
